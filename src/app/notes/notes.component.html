@@ -1,0 +1,14 @@
+<form class="example px-2">
+    <input type="text" placeholder="Search.." name="search">
+    <button type="submit">Search</button>
+</form>
+
+
+
+<div class="container border my-2" *ngFor="let item of data">
+    <h3>{{item.subject_name}}</h3>
+    <h5>Subject: {{item.subject_id}}</h5>
+    <p class="text-secondary">{{item.end_time}}</p>
+    <p class="text-secondary">{{item.teacher_name}}</p>
+    <p class="text-secondary ">{{item.posted_date}}</p>
+</div>
