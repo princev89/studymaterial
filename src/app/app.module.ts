@@ -7,6 +7,8 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ExploreComponent } from './explore/explore.component';
 import { RouterModule, Routes } from '@angular/router';
+import { FooterComponent } from './footer/footer.component';
+import { IntroComponent } from './intro/intro.component';
 
 const routes: Routes = [
   {path: 'explore', component: ExploreComponent }
@@ -16,6 +18,8 @@ const routes: Routes = [
     AppComponent,
     NavbarComponent,
     ExploreComponent,
+    FooterComponent,
+    IntroComponent,
   ],
   imports: [
     RouterModule.forRoot(routes),
